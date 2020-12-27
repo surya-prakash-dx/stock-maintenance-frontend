@@ -1,0 +1,73 @@
+:root {
+  --theme-colour: #1ecbe1;
+  --theme-colour-light: #1ecbe1aa;
+  --theme-colour-text: #333;
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+
+.bg-theme {
+  background: var(--theme-colour);
+}
+
+.bg-theme-light {
+  background: var(--theme-colour-light);
+}
+
+.bg-theme-error {
+  background: var(--theme-colour-error);
+}
+
+.bg-theme-success {
+  background: var(--theme-colour-success);
+}
+
+.bg-theme-alert {
+  background: var(--theme-colour-alert);
+}
+
+.btn-theme-full {
+  border: 0px solid cyan;
+}
+
+.btn-theme {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  color: #fff;
+  -ms-user-select: none;
+  background: var(--theme-colour);
+  border-radius: 4px;
+  line-height: 22px;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.btn-theme-outline {
+  border: solid 2px white;
+}
+
+.btn-theme:hover, .btn-theme-outline:hover {
+  box-shadow: 0px 2px 4px var(--theme-colour-light);
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: initial;
+}

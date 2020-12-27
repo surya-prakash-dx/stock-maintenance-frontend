@@ -1,0 +1,18 @@
+.navbar {
+	height: 65px;
+}
+
+.h4 {
+	font-weight: 600 !important;
+}
+
+body {
+	background: #efefef !important;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+.card {
+	background: inherit !important;
+}
