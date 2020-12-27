@@ -31,7 +31,7 @@ if ((!sessionStorage.getItem('token')) && (window.location.pathname.indexOf('ind
 
 const ajaxCall = (endPoint, data, method, onSuccess) => {
 	$.ajax({
-		url: `http://localhost:5000/${endPoint}`,
+		url: `https://stock-maintenance.herokuapp.com/${endPoint}`,
 		type: method,
 		data,
 		dataType: "json",
